@@ -27,10 +27,10 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="135.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2NA-wj-VAr">
-                                                    <rect key="frame" x="11" y="3" width="78" height="129.5"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2NA-wj-VAr">
+                                                    <rect key="frame" x="11" y="3" width="78" height="129"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="129" id="7pE-D9-16R"/>
+                                                        <constraint firstAttribute="height" constant="129" id="7pE-D9-16R"/>
                                                         <constraint firstAttribute="width" constant="78" id="c8B-nk-XPq"/>
                                                     </constraints>
                                                 </imageView>
@@ -61,7 +61,7 @@
                                                 <constraint firstItem="2NA-wj-VAr" firstAttribute="leading" secondItem="xWe-yI-Yap" secondAttribute="leading" constant="11" id="e4H-u9-gKk"/>
                                                 <constraint firstItem="3mf-dj-K5O" firstAttribute="leading" secondItem="2NA-wj-VAr" secondAttribute="trailing" constant="10" id="ee9-gq-KfE"/>
                                                 <constraint firstItem="3mf-dj-K5O" firstAttribute="top" secondItem="WTf-cj-AMa" secondAttribute="bottom" constant="3" id="i1j-eY-EuQ"/>
-                                                <constraint firstAttribute="bottom" secondItem="2NA-wj-VAr" secondAttribute="bottom" constant="3" id="nCP-8G-bui"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2NA-wj-VAr" secondAttribute="bottom" constant="3" id="nCP-8G-bui"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
