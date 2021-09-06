@@ -21,7 +21,7 @@ Flixy is an app that allows users to browse movies from the [The Movie Database 
 
 ### App Walkthrough GIF
 
-![](https://i.imgur.com/dDkJhsB.gif)
+![](https://i.imgur.com/RMiZ205.gif)
 
 
 
